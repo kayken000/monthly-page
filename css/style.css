@@ -3,6 +3,23 @@
   Red  - #A62338         Gray - #D9D9DB        
   Blue - #002E59         Teal - #007E8C
 */
-body {
+body{
   background-color:ivory
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*::before, *::after {
+  box-sizing: inherit;
+}
+#container{
+  background-color: lavenderblush;
+  width: 96%;
+  margin: 0;
+}
+#hero{
+  background-image: url("/images/books.jpg");
+  height: 300vh;
 }
