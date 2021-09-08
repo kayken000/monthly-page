@@ -20,6 +20,42 @@ body{
   margin: 0;
 }
 #hero{
+  background-color: rgb(45, 155, 192);
   background-image: url("/images/books.jpg");
+  background-size: cover;
   height: 300vh;
+  color: aliceblue;
+
+}
+#sitetext{
+  background-color: black;
+  padding: 25;
+}
+h1{
+  font-size: 70px;
+  font-weight: 400;
+}
+h2{
+  font-weight: 400;
+}
+#steps{
+  align-items: center;
+  margin: 30px;
+  font-size: 35px;
+  max-width: 35%;
+}
+.numb{
+  background-color: red;
+  color: whitesmoke;
+  padding: 0%;
+}
+h3{
+  margin: 15px;
+}
+.item a :hover{
+  background-color: bisque;
+  color: brown;
+}
+img{
+filter: grayscale(10s);
 }
